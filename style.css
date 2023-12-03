@@ -1,0 +1,84 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.py-5{
+  padding-bottom:0 !important;
+}
+.btn-primary
+{
+  background-color: aliceblue;
+  border:none;
+  color:black;
+}
+.btn-primary:hover{
+  background-color: rgb(165, 161, 161);
+  color:black;
+}
+.btn-outline-secondary{
+  color:white;
+  border:1px solid white;
+}
+.btn-outline-secondary:hover{
+  background-color: white;
+  color:black;
+  border:none;
+}
+.dogs{
+  height: 100px;
+  margin-top:5px;
+  margin-bottom: 2px;
+  border-radius: 50%;
+
+}
+.mx-auto{
+  margin-bottom: 50px;
+}
+.btn-outline-primary{
+  color:black;
+  border:1px solid black;
+}
+.btn-outline-primary:hover{
+  color:white;
+  background-color: black;
+  border:none;
+}
+.btn-primary{
+  color:white;
+  background-color: black;
+}
+.text-bg-primary{
+  background-color: black !important;
+}
+.border-primary{
+  border:1px solid black !important;
+}
+.py-5{
+  margin-bottom: 0 !important;
+}
+
+
+
